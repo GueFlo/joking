@@ -8,22 +8,18 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
- * Basic styling
+ * Basic styling - Warm & Colorful Dark Design
  */
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
+    color: #e0e0e0;
+    background-color: #1a1a2e;
     -webkit-text-size-adjust: 100%;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -35,17 +31,14 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
-
 /**
  * Images
  */
 img {
     max-width: 100%;
     vertical-align: middle;
+    border-radius: 8px;
 }
-
-
 
 /**
  * Figures
@@ -57,8 +50,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -74,42 +65,38 @@ li {
     }
 }
 
-
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 600;
+    color: #ff79c6; // Vibrant pink for headings
 }
-
-
 
 /**
  * Links
  */
 a {
-    color: $brand-color;
+    color: #bd93f9; // Soft purple
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: #8be9fd; // Cyan
     }
 
     &:hover {
-        color: $text-color;
+        color: #ffb86c; // Warm orange
         text-decoration: underline;
     }
 }
-
-
 
 /**
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: #f8f8f2;
+    border-left: 4px solid #ffb86c;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -120,17 +107,16 @@ blockquote {
     }
 }
 
-
-
 /**
  * Code formatting
  */
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    border: 1px solid #44475a;
+    border-radius: 6px;
+    background-color: #282a36;
+    color: #f8f8f2;
 }
 
 code {
@@ -138,7 +124,7 @@ code {
 }
 
 pre {
-    padding: 8px 12px;
+    padding: 12px;
     overflow-x: scroll;
 
     > code {
@@ -147,8 +133,6 @@ pre {
         padding-left: 0;
     }
 }
-
-
 
 /**
  * Wrapper
@@ -170,8 +154,6 @@ pre {
     }
 }
 
-
-
 /**
  * Clearfix
  */
@@ -183,8 +165,6 @@ pre {
         clear: both;
     }
 }
-
-
 
 /**
  * Icons
@@ -198,7 +178,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: #6272a4;
         }
     }
 }

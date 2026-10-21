@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi there! I'm Guerrito.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm a curious soul fascinated by how things work, whether it's a complex piece of software or a simple mechanical toy. This space is where I document my learning journey, share experiments, and occasionally post something that makes me laugh.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+When I'm not tinkering with code, you can usually find me exploring new ideas or looking for the perfect cup of coffee.
+
+Feel free to reach out via [email]({{ site.email }}) or find me on [GitHub]({{ site.github_username | prepend: 'https://github.com/' }})!
